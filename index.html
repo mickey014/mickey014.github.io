@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirk Anthony Mendoza — Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-bracket">[</span>kam<span class="nav__logo-bracket">]</span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__glow hero__glow--1"></div>
+    <div class="hero__glow hero__glow--2"></div>
+    <div class="hero__inner">
+      <p class="hero__pre fade-in">Hello, world. I'm</p>
+      <h1 class="hero__name fade-in">Kirk Anthony<br /><span class="hero__name-accent">Mendoza</span></h1>
+      <p class="hero__title fade-in">
+        <span class="hero__title-bar"></span>
+        Software Developer
+        <span class="hero__title-bar"></span>
+      </p>
+      <p class="hero__desc fade-in">
+        Passionate about building web and mobile applications. I enjoy creating scalable systems
+        that solve real-world problems — from backend APIs to polished user interfaces.
+      </p>
+      <div class="hero__actions fade-in">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="https://github.com/mickey014" target="_blank" rel="noopener" class="btn btn--ghost">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub Profile
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__label fade-up">01 — About</div>
+      <div class="about__grid">
+        <div class="about__avatar fade-up">
+          <div class="about__avatar-ring"></div>
+          <div class="about__avatar-inner">
+            <img src="images/my-profile.png" alt="Kirk Anthony Mendoza" class="about__avatar-photo" />
+          </div>
+          <div class="about__avatar-badge">Full-Stack Dev</div>
+        </div>
+        <div class="about__text fade-up">
+          <h2 class="section__heading">Crafting systems<br />that <em>actually</em> work.</h2>
+          <p>
+            I'm a software developer with hands-on experience building web applications using
+            <strong>Laravel</strong>, <strong>WordPress</strong>, <strong>JavaScript</strong>,
+            and <strong>PHP</strong>, backed by solid database design and SQL skills.
+          </p>
+          <p>
+            My focus is on backend and full-stack development — architecting clean APIs,
+            managing data efficiently, and tying everything together into seamless experiences.
+            I thrive on building real-world systems that are both functional and maintainable.
+          </p>
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-num">3+</span>
+              <span class="about__stat-label">Projects shipped</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-num">5+</span>
+              <span class="about__stat-label">Technologies</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-num">∞</span>
+              <span class="about__stat-label">Lines of code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__label fade-up">02 — Skills</div>
+      <h2 class="section__heading fade-up">Tools of<br />the trade.</h2>
+      <div class="skills__grid">
+
+        <div class="skills__card fade-up">
+          <div class="skills__card-header">
+            <span class="skills__card-icon">⟨/⟩</span>
+            <h3>Frontend</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__dot"></span>HTML</li>
+            <li class="skills__item"><span class="skills__dot"></span>CSS</li>
+            <li class="skills__item"><span class="skills__dot"></span>JavaScript</li>
+            <li class="skills__item"><span class="skills__dot"></span>Jquery</li>
+            <li class="skills__item"><span class="skills__dot"></span>React JS</li>
+          </ul>
+        </div>
+
+        <div class="skills__card fade-up">
+          <div class="skills__card-header">
+            <span class="skills__card-icon">{ }</span>
+            <h3>Backend</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__dot"></span>Laravel</li>
+            <li class="skills__item"><span class="skills__dot"></span>Codeigniter</li>
+            <li class="skills__item"><span class="skills__dot"></span>Spring Boot</li>
+            <li class="skills__item"><span class="skills__dot"></span>Flutter</li>
+            <li class="skills__item"><span class="skills__dot"></span>.Net</li>
+          </ul>
+        </div>
+
+        <div class="skills__card fade-up">
+          <div class="skills__card-header">
+            <span class="skills__card-icon">■</span>
+            <h3>CMS</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__dot"></span>WordPress</li>
+          </ul>
+        </div>
+
+        <div class="skills__card fade-up">
+          <div class="skills__card-header">
+            <span class="skills__card-icon">⚙</span>
+            <h3>Other</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__dot"></span>MySQL</li>
+            <li class="skills__item"><span class="skills__dot"></span>SQLite</li>
+            <li class="skills__item"><span class="skills__dot"></span>Git</li>
+            <li class="skills__item"><span class="skills__dot"></span>REST APIs</li>
+            <li class="skills__item"><span class="skills__dot"></span>AWS</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section__label fade-up">03 — Projects</div>
+      <h2 class="section__heading fade-up">Things I've<br />built.</h2>
+      <div class="projects__grid">
+
+        <article class="project-card fade-up">
+          <div class="project-card__num">01</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Real Estate Web System</h3>
+            <p class="project-card__sub">Capstone Project</p>
+            <p class="project-card__desc">
+              A full real estate management platform built with Laravel — handling property listings,
+              management workflows, and user interactions for real estate transactions end-to-end.
+            </p>
+            <div class="project-card__tags">
+              <span>Laravel</span><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <a href="https://github.com/mickey014/real_estate_web" target="_blank" rel="noopener" class="project-card__link">
+            View on GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-card__num">02</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">League Coders Website</h3>
+            <p class="project-card__sub">Community Platform</p>
+            <p class="project-card__desc">
+              A content-rich website for a coding community, built on WordPress with custom theme
+              configurations and CMS features to keep the content dynamic and manageable.
+            </p>
+            <div class="project-card__tags">
+              <span>WordPress</span><span>PHP</span><span>MySQL</span>
+            </div>
+          </div>
+          <a href="https://github.com/mickey014/leaguecoders" target="_blank" rel="noopener" class="project-card__link">
+            View on GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-card__num">03</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Restaurant Management System</h3>
+            <p class="project-card__sub">Desktop Application</p>
+            <p class="project-card__desc">
+              A desktop-based restaurant management system built in VB.NET for handling orders,
+              menu items, and day-to-day restaurant operations with a clean, focused UI.
+            </p>
+            <div class="project-card__tags">
+              <span>VB.NET</span><span>SQL Database</span>
+            </div>
+          </div>
+          <a href="https://github.com/mickey014/Restaurant_Management" target="_blank" rel="noopener" class="project-card__link">
+            View on GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__label fade-up">04 — Contact</div>
+      <h2 class="section__heading fade-up">Let's build<br />something.</h2>
+      <div class="contact__grid">
+        <div class="contact__info fade-up">
+          <p>Have a project in mind, a question, or just want to connect? Drop me a message — I read every one.</p>
+          <a href="https://github.com/mickey014" target="_blank" rel="noopener" class="contact__github">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            github.com/mickey014
+          </a>
+        </div>
+        <form class="contact__form fade-up" id="contactForm" novalidate>
+          <div class="form__group">
+            <label for="email" class="form__label">Your email</label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="you@example.com" />
+            <span class="form__error" id="emailError"></span>
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea id="message" name="message" class="form__textarea" rows="5" placeholder="What's on your mind?"></textarea>
+            <span class="form__error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <span class="btn__label">Send message</span>
+            <span class="btn__sent" hidden>Message sent ✓</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">
+        Designed &amp; built by <strong>Kirk Anthony Mendoza</strong> &mdash; <span id="footerYear"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
