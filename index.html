@@ -21,7 +21,6 @@
         <li><a href="#about" class="nav__link">About</a></li>
         <li><a href="#skills" class="nav__link">Skills</a></li>
         <li><a href="#projects" class="nav__link">Projects</a></li>
-        <li><a href="#contact" class="nav__link">Contact</a></li>
       </ul>
       <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -137,6 +136,18 @@
             <li class="skills__item"><span class="skills__dot"></span>.Net</li>
           </ul>
         </div>
+        
+        <div class="skills__card fade-up">
+          <div class="skills__card-header">
+            <span class="skills__card-icon">[0]</span>
+            <h3>Databases</h3>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item"><span class="skills__dot"></span>MySQL</li>
+            <li class="skills__item"><span class="skills__dot"></span>SQLite</li>
+            <li class="skills__item"><span class="skills__dot"></span>MongoDB</li>
+          </ul>
+        </div>
 
         <div class="skills__card fade-up">
           <div class="skills__card-header">
@@ -151,13 +162,10 @@
         <div class="skills__card fade-up">
           <div class="skills__card-header">
             <span class="skills__card-icon">⚙</span>
-            <h3>Other</h3>
+            <h3>Tools & Technologies</h3>
           </div>
           <ul class="skills__list">
-            <li class="skills__item"><span class="skills__dot"></span>MySQL</li>
-            <li class="skills__item"><span class="skills__dot"></span>SQLite</li>
             <li class="skills__item"><span class="skills__dot"></span>Git</li>
-            <li class="skills__item"><span class="skills__dot"></span>REST APIs</li>
             <li class="skills__item"><span class="skills__dot"></span>AWS</li>
           </ul>
         </div>
@@ -183,7 +191,7 @@
               management workflows, and user interactions for real estate transactions end-to-end.
             </p>
             <div class="project-card__tags">
-              <span>Laravel</span><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>Laravel</span><span>PHP</span><span>MongoDB</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
             </div>
           </div>
           <a href="https://github.com/mickey014/real_estate_web" target="_blank" rel="noopener" class="project-card__link">
@@ -230,39 +238,6 @@
           </a>
         </article>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- ─── CONTACT ─── -->
-  <section class="section contact" id="contact">
-    <div class="container">
-      <div class="section__label fade-up">04 — Contact</div>
-      <h2 class="section__heading fade-up">Let's build<br />something.</h2>
-      <div class="contact__grid">
-        <div class="contact__info fade-up">
-          <p>Have a project in mind, a question, or just want to connect? Drop me a message — I read every one.</p>
-          <a href="https://github.com/mickey014" target="_blank" rel="noopener" class="contact__github">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-            github.com/mickey014
-          </a>
-        </div>
-        <form class="contact__form fade-up" id="contactForm" novalidate>
-          <div class="form__group">
-            <label for="email" class="form__label">Your email</label>
-            <input type="email" id="email" name="email" class="form__input" placeholder="you@example.com" />
-            <span class="form__error" id="emailError"></span>
-          </div>
-          <div class="form__group">
-            <label for="message" class="form__label">Message</label>
-            <textarea id="message" name="message" class="form__textarea" rows="5" placeholder="What's on your mind?"></textarea>
-            <span class="form__error" id="messageError"></span>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full">
-            <span class="btn__label">Send message</span>
-            <span class="btn__sent" hidden>Message sent ✓</span>
-          </button>
-        </form>
       </div>
     </div>
   </section>
